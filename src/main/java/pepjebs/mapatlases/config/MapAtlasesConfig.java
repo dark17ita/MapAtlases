@@ -17,7 +17,7 @@ public class MapAtlasesConfig implements ConfigData {
     @ConfigEntry.Category("atlas")
     @ConfigEntry.Gui.Tooltip()
     @Comment("If true, the Atlas is required to have spare Empty Maps stored to expand the Filled Map size")
-    public boolean requireEmptyMapsToExpand = true;
+    public boolean requireEmptyMapsToExpand = false;
 
     @ConfigEntry.Category("hud")
     @ConfigEntry.Gui.Tooltip()
